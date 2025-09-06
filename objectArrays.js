@@ -31,4 +31,12 @@ let people = [{
     name: "getha",
     marks: 28
 }];
-
+let maxmarks=0;
+let topper="";
+for(let person of people){
+    if(person.marks>maxmarks){
+        maxmarks=person.marks;
+        topper=person.name;
+    }
+}
+console.log(`Topper is ${topper} with marks ${maxmarks}`);
