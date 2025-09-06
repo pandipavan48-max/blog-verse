@@ -19,9 +19,16 @@ let oddNumbers=numbers.filter(num=>num%2!==0)
 console.log(oddNumbers)
 let sum=numbers.reduce((present,num)=>present+num,0)//reduce to single value
 console.log(sum)
+let Numbers = [1, 2, 3, 4, 5];
+let colors = ["red", "green", "blue"];
+let people = [{
+    name: "pavan",
+    marks: 30
+}, {
+    name: "nagendra",
+    marks: 25
+}, {
+    name: "getha",
+    marks: 28
+}];
 
-let mixedArray=[1,"hello",true,{name:"pavan"},[1,2,3]]
-console.log(mixedArray)
-console.log(mixedArray[3].name)
-console.log(mixedArray[4][1])
-mixedArray.push("new element")
